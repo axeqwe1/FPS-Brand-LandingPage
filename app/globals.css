@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../public/fonts/futurafontstyle.css';
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,6 +18,39 @@
   }
 }
 
+@layer components {
+  .underline-animation{
+    @apply relative;
+  }
+
+  .underline-animation::after{
+    @apply absolute content-[''] w-full h-2 left-0 md:bottom-[0px] bottom-[0px] background-theme-1 scale-x-0 hover:scale-x-100 transition-transform duration-200
+  }
+}
+.background-theme-1{
+  background-color: #1f4593;
+}
+.color-theme-1{
+  color: #1f4593;
+}
+.color-theme-2{
+  color: #04030a;
+}
+.color-theme-3{
+  color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+}
+.league-spartan-font-800 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 800;
+}
+.league-spartan-font-700 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+}
 body {
   color: var(--foreground);
   background: var(--background);

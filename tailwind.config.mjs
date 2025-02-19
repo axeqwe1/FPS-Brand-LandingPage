@@ -7,11 +7,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        spartan: ['League Spartan', 'sans-serif'],
+        futura: ['Futura', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 };
