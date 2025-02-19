@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
   // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
   const FuturaRegularClass = useFuturaFont('regular');
   
@@ -14,7 +14,14 @@ import Image from "next/image";
 const Clubsection = () => {
     return (
             <div className="max-w-[1300px] mx-auto my-12">
-                <h1 className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center">OUR CLUBS</h1>
+                <motion.h1
+                 className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
+                     initial={{ opacity: 0, x: -50 }}
+                     animate={{ opacity: 1, x: 0 }}
+                     transition={{ duration: 0.3, ease: "easeOut" }}
+                >
+                    OUR CLUBS
+                </motion.h1>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[1rem] lg:gap-[4rem] mt-6 mx-3">
                     <div className="relative col-span-6 justify-items-center lg:justify-items-start">
                         <div className="relative overflow-hidden max-w-[636px] w-full h-[360px] flex items-center justify-center">

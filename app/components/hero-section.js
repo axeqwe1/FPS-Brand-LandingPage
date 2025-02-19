@@ -5,7 +5,6 @@ import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
 import { motion } from "framer-motion";
 const Herosection = () => {
-
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
