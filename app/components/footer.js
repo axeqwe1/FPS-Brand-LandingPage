@@ -3,8 +3,18 @@
 import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
-
+import { motion, Variants } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useInView } from "framer-motion";
 const Footer = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
+  const [hasBeenInView, setHasBeenInView] = useState(false);
+    useEffect(() => {
+        if (isInView && !hasBeenInView) {
+            setHasBeenInView(true); // ✅ เปลี่ยนเป็น true แค่ครั้งเดียว
+        }
+    }, [isInView, hasBeenInView]);
 // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
   const FuturaRegularClass = useFuturaFont('regular');
 // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
@@ -13,7 +23,13 @@ const Footer = () => {
   const FuturaMediumClass = useFuturaFont('medium');
     return(
         <div className='background-theme-1 text-white'>
-        <footer className="max-w-7xl mx-auto ">
+        <motion.footer 
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={hasBeenInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // เช็คว่าอยู่ใน viewport หรือไม่
+        transition={{duration: 0.3, ease: "easeOut" }}
+        className="max-w-7xl mx-auto "
+        >
             <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px]">
                 <div className="p-3 w-full h-full place-self-end">
                     <div className={`flex flex-col h-full justify-between `}>
@@ -82,7 +98,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </footer>
+        </motion.footer>
         </div>
     )
 }

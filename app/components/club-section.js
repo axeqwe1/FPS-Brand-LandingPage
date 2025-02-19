@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
 import { motion } from "framer-motion";
+
   // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
   const FuturaRegularClass = useFuturaFont('regular');
   

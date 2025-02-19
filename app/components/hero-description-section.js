@@ -3,7 +3,19 @@
 import Link from 'next/link';
 import Image from "next/image";
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
+import { motion, Variants } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useInView } from "framer-motion";
 const HeroDescriptionSection = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
+  const [hasBeenInView, setHasBeenInView] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasBeenInView) {
+      setHasBeenInView(true); // ✅ เปลี่ยนเป็น true แค่ครั้งเดียว
+    }
+  }, [isInView, hasBeenInView]);
     // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
   const FuturaRegularClass = useFuturaFont('regular');
   
@@ -13,7 +25,13 @@ const HeroDescriptionSection = () => {
     // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaMediumClass = useFuturaFont('medium');
     return (
-        <div className="container min-h-[800px] max-w-[1250px] mx-auto pt-14 pb-6">
+        <motion.div 
+            ref={ref}
+            initial={{ opacity: 0, y: 50 }}
+            animate={hasBeenInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // เช็คว่าอยู่ใน viewport หรือไม่
+            transition={{duration: 0.3, ease: "easeOut" }}
+            className="container min-h-[800px] max-w-[1250px] mx-auto pt-14 pb-6"
+        >
             <div className="flex lg:flex-row-reverse lg:justify-between xl:ml-[0px] lg:ml-[46px]  md:mr-[46px] m-[0] justify-center items-center flex-col-reverse">
                 <div className="mt-6">
                     <h1 className='uppercase text-[38px] md:text-[52px] leading-[1] color-theme-1 text-center lg:text-right league-spartan-font-800 tracking-tighter px-3'>
@@ -95,7 +113,7 @@ const HeroDescriptionSection = () => {
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -3,18 +3,37 @@
 import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
-
+import { motion, Variants } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useInView } from "framer-motion";
 
 const HeroDetailsection = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
+  const [hasBeenInView, setHasBeenInView] = useState(false);
+
+  useEffect(() => {
+    if (isInView && !hasBeenInView) {
+      setHasBeenInView(true); // ✅ เปลี่ยนเป็น true แค่ครั้งเดียว
+    }
+  }, [isInView, hasBeenInView]);
+
 // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
   const FuturaRegularClass = useFuturaFont('regular');
 // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaBoldClass = useFuturaFont('bold');
 // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaMediumClass = useFuturaFont('medium');
+  console.log(isInView)
     return (
         <div className='min-h-[600px] background-theme-1'>
-            <div className="container max-w-[1250px] mx-auto h-full">
+            <motion.div 
+                ref={ref}
+                className="container max-w-[1250px] mx-auto h-full"
+                initial={{ opacity: 0, y: 50 }}
+                animate={hasBeenInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // เช็คว่าอยู่ใน viewport หรือไม่
+                transition={{duration: 0.3, ease: "easeOut" }}
+            >
                 <div className="grid grid-cols-1 md:grid-cols-2 py-12 mb-12">
                     <div className="col-span-1 md:pb-0 pb-3">
                         <div className="flex flex-col items-center md:items-start leading-[.9] tracking-[-.2em]">
@@ -88,7 +107,7 @@ const HeroDetailsection = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     )
 }
