@@ -14,6 +14,12 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/image/Logos/FPS-PNG_Blue_09050de_Transparent.svg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preload" href="/image/Club/Bochum_Transparent.webp" as="image"/>
+        <link rel="preload" href="/image/Club/SS_Lazio_Transprent.webp" as="image"/>
+        <link rel="preload" href="/image/Club/Hansa_Rostock_Transparent.webp" as="image"/>
+        <link rel="preload" href="/image/Club/Augsburg_Transparent.webp" as="image"/>
+        <link rel="preload" href="/image/Club/AS_Monaco_Transparent.webp" as="image"/>
+        <link rel="preload" href="/image/Video/herosectionVideo.webm" as="video" />
         <link
             rel="preload"
             href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;700;800;900&display=swap"
