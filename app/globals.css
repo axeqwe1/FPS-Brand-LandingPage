@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 
+
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
