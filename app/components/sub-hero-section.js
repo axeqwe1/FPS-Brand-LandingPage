@@ -7,11 +7,11 @@ import { useEffect, useState } from "react";
 
 
 const logoList = [
-    {logo:'https://futureperformancesport.my.canva.site/fps-website-approve-12-feb/_assets/media/acf3000ba92cb806359f570dea10db48.png', name:'AS MONACO',description:'Ligue 1'},
-    {logo:'https://futureperformancesport.my.canva.site/fps-website-approve-12-feb/_assets/media/cf2a4879a6c8e44c13f5ab11a86b7da1.png', name:'FC AUGSBURG',description:'Bundesligo'},
-    {logo:'https://futureperformancesport.my.canva.site/fps-website-approve-12-feb/_assets/media/362ec874e416f10564aa5d753d5688f5.png', name:'FC HANSA ROSTOCK',description:'3. Liga'},
-    {logo:'https://futureperformancesport.my.canva.site/fps-website-approve-12-feb/_assets/media/a14e2544f9f9d5bcdad6814052c054ac.png', name:'SS LAZIO',description:'Serie A'},
-    {logo:'https://futureperformancesport.my.canva.site/fps-website-approve-12-feb/_assets/media/ef14d77b4b7a4042b6d5bdd6c6adab88.png', name:'VFL BOCHUM',description:'Bundesligo'},
+    {logo:'/image/Club/AS_Monaco_Transparent.png', name:'AS MONACO',description:'Ligue 1'},
+    {logo:'/image/Club/Augsburg_Transparent.png', name:'FC AUGSBURG',description:'Bundesligo'},
+    {logo:'/image/Club/Bochum_Transparent.png', name:'FC HANSA ROSTOCK',description:'3. Liga'},
+    {logo:'/image/Club/Hansa_Rostock_Transparent.png', name:'SS LAZIO',description:'Serie A'},
+    {logo:'/image/Club/SS_Lazio_Transprent.png', name:'VFL BOCHUM',description:'Bundesligo'},
 ]
 
 const SubHerosection = () => {
