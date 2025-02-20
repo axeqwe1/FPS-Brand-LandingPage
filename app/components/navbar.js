@@ -49,7 +49,7 @@ const NavBar = () => {
                             </div>
                             <ul
                                 tabIndex={0}
-                                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ml-[-160px]">
+                                className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow ml-[-160px]">
                                 {menuItems.map((item,index) => (
                                     <li key={index}>
                                         <Link href={item.path} className={`px-3 py-4 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
@@ -62,7 +62,7 @@ const NavBar = () => {
                         <ul className='md:flex flex-row hidden'>
                         {menuItems.map((item,index) => (
                             <li key={index}>
-                                <Link href={item.path} className={`px-3 mr-5 ml-2 rounded-box p-6 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                                <Link href={item.path} className={`px-3 mr-5 ml-2 rounded-box p-5 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                                     {item.name}
                                 </Link>
                             </li>
