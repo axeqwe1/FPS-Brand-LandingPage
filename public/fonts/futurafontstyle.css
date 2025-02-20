@@ -5,6 +5,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Book'), url('FuturaStdBook.woff') format('woff');
+    font-display: swap; /* เพิ่ม font-display */
     }
     
 
@@ -13,6 +14,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Book Oblique'), url('FuturaStdBookOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -21,6 +24,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Light Condensed'), url('FuturaStdCondensedLight.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -29,6 +34,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Light'), url('FuturaStdLight.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -37,6 +44,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Light Condensed Oblique'), url('FuturaStdCondensedLightObl.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -45,6 +54,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Light Oblique'), url('FuturaStdLightOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -53,6 +64,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Medium Condensed'), url('FuturaStdCondensed.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -61,6 +74,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Medium'), url('FuturaStdMedium.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -69,6 +84,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Medium Condensed Oblique'), url('FuturaStdCondensedOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -77,6 +94,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Medium Oblique'), url('FuturaStdMediumOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -85,6 +104,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Heavy'), url('FuturaStdHeavy.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -93,6 +114,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Heavy Oblique'), url('FuturaStdHeavyOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -101,6 +124,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Bold'), url('FuturaStdBold.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -109,6 +134,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Bold Condensed'), url('FuturaStdCondensedBold.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -117,6 +144,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Bold Oblique'), url('FuturaStdBoldOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -125,6 +154,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Bold Condensed Oblique'), url('FuturaStdCondensedBoldObl.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -133,6 +164,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Extra Bold Condensed'), url('FuturaStdCondensedExtraBd.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -141,6 +174,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Extra Bold'), url('FuturaStdExtraBold.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -149,6 +184,8 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Extra Bold Condensed Oblique'), url('FuturaStdCondExtraBoldObl.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
     
 
@@ -157,4 +194,6 @@
     font-style: normal;
     font-weight: normal;
     src: local('Futura Std Extra Bold Oblique'), url('FuturaStdExtraBoldOblique.woff') format('woff');
+    font-display: swap;
+        /* เพิ่ม font-display */
     }
