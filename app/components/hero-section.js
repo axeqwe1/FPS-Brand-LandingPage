@@ -34,8 +34,9 @@ const Herosection = () => {
                 loop 
                 muted 
                 playsInline
+                preload="metadata"
             >
-                <source src="/image/Video/Landing_Page_Video_No_Club_Logo.mp4" type="video/mp4" />
+                <source src="/image/Video/herosectionVideo.webm" type="video/webm" />
             </video>
             <div className="max-w-[1300px] mx-auto">
                 <div className="flex flex-col lg:flex-row lg:justify-between justify-center py-9">
