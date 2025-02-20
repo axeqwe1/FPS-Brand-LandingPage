@@ -10,14 +10,14 @@ const Herosection = () => {
         visible: {
             opacity: 1,
             transition: {
-            staggerChildren: 0.1, // แต่ละอันจะแสดงผลช้าไป 0.3 วินาที
+            staggerChildren: 0.3, // แต่ละอันจะแสดงผลช้าไป 0.3 วินาที
             },
         },
     };
 
     const itemVariants = {
         hidden: { opacity: 0, x: -50 },
-        visible: { opacity: 1, x: 0, transition: { duration: 0.3, ease: "easeOut" } },
+        visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: "easeOut" } },
     };
 
   // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
