@@ -10,7 +10,7 @@ const Herosection = () => {
         visible: {
             opacity: 1,
             transition: {
-            staggerChildren: 0.3, // แต่ละอันจะแสดงผลช้าไป 0.3 วินาที
+            staggerChildren: 0.2, // แต่ละอันจะแสดงผลช้าไป 0.3 วินาที
             },
         },
     };
