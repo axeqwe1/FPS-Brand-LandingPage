@@ -42,7 +42,7 @@ const HeroDescriptionSection = () => {
                     </div>
                     <div className="">
                         <Image 
-                            src="/image/Logos/YMTHoldingBlue.png" 
+                            src="/image/Logos/YMTHoldingBlue.webp" 
                             width={95}
                             height={90}
                             alt="Future"
@@ -75,7 +75,7 @@ const HeroDescriptionSection = () => {
                 <div className="flex flex-row justify-center items-center flex-wrap">
                         <Image
                             className='mx-3 mr-[-12px]'  
-                            src="/image/Logos/Textile_one.jpeg" 
+                            src="/image/Logos/Textile_one.webp" 
                             width={210}
                             height={90}
                             alt="Textile One Indonesia"
@@ -83,7 +83,7 @@ const HeroDescriptionSection = () => {
                         />
                         <Image 
                             className='mx-3'  
-                            src="/image/Logos/YPTLogo_Square.png" 
+                            src="/image/Logos/YPTLogo_Square.webp" 
                             width={197}
                             height={90}
                             alt="Yehpattana Tayeh"
@@ -91,7 +91,7 @@ const HeroDescriptionSection = () => {
                         />
                         <Image 
                             className='md:mx-9 mx-3'  
-                            src="/image/Logos/Gennex_Square.png" 
+                            src="/image/Logos/Gennex_Square.webp" 
                             width={190}
                             height={90}
                             alt="Gennex"

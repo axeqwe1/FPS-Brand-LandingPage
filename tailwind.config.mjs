@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         spartan: ['League Spartan', 'sans-serif'],
+        futura: ['Futura', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",

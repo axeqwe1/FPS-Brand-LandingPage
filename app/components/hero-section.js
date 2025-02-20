@@ -66,7 +66,7 @@ const Herosection = () => {
                         <div className="flex sm:flex-row-reverse flex-row flex-wrap content-start z-10 lg:px-0 sm:p-0 p-[3px]  items-center">
                             <Image
                                 className={`sm:ml-4 ml-2 mr-1 lg:w-[56px] lg:h-[58px] w-[46px] h-[48px]`} 
-                                src="/image/Club/Bochum_Transparent.png" 
+                                src="/image/Club/Bochum_Transparent.webp" 
                                 width={56}
                                 height={58}
                                 alt="Bochum"
@@ -74,7 +74,7 @@ const Herosection = () => {
                             />
                             <Image 
                                 className={`sm:ml-4 ml-2 lg:w-[88px] lg:h-[59px] w-[78px] h-[49px]`} 
-                                src="/image/Club/SS_Lazio_Transprent.png" 
+                                src="/image/Club/SS_Lazio_Transprent.webp" 
                                 width={88}
                                 height={59}
                                 alt="SS Lazio"
@@ -82,7 +82,7 @@ const Herosection = () => {
                             />
                             <Image 
                                 className={`sm:ml-8 ml-0 lg:w-[58px] lg:h-[58px] w-[48px] h-[48px]`}
-                                src="/image/Club/Hansa_Rostock_Transparent.png" 
+                                src="/image/Club/Hansa_Rostock_Transparent.webp" 
                                 width={58}
                                 height={58}
                                 alt="Hansa Rostock"
@@ -90,7 +90,7 @@ const Herosection = () => {
                             />
                             <Image 
                                 className={`sm:ml-8 ml-6 lg:w-[46px] lg:h-[58px] w-[36px] h-[48px]`}
-                                src="/image/Club/Augsburg_Transparent.png" 
+                                src="/image/Club/Augsburg_Transparent.webp" 
                                 width={46}
                                 height={58}
                                 alt="Augsburg"
@@ -98,7 +98,7 @@ const Herosection = () => {
                             />
                             <Image 
                                 className={`sm:ml-4 ml-6 mt-[-10px] lg:w-[43px] lg:h-[71px] w-[43px] h-[61px]`}
-                                src="/image/Club/AS_Monaco_Transparent.png" 
+                                src="/image/Club/AS_Monaco_Transparent.webp" 
                                 width={43}
                                 height={71}
                                 alt="AS Monaco"

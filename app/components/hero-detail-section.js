@@ -73,7 +73,7 @@ const HeroDetailsection = () => {
                         <div className="flex flex-col-reverse md:justify-between justify-center h-full">
                             <div className='flex flex-row items-center justify-center md:justify-start pb-6'>
                                 <Image 
-                                    src="/image/Logos/YMT_Holding_White_(Not_Perfect).png" 
+                                    src="/image/Logos/YMT_Holding_White.webp" 
                                     width={82}
                                     height={80}
                                     alt="YMT Holding"
@@ -90,14 +90,14 @@ const HeroDetailsection = () => {
                         <div className="flex flex-col-reverse md:justify-between justify-center h-full ">
                             <div className='flex flex-row-reverse items-center justify-center md:justify-start  mb-6 md:mr-12'>
                                 <Image 
-                                    src="/image/Logos/FPS-PNG.png" 
+                                    src="/image/Logos/FPS-PNG.webp" 
                                     width={175}
                                     height={83}
                                     alt="Future"
                                 />
                                 <span className='p-3'></span>
                                 <Image 
-                                    src="/image/Logos/Mizuno_Runbird_Only_White_Transparent.png" 
+                                    src="/image/Logos/Mizuno_Runbird_Only_White_Transparent.webp" 
                                     width={127}
                                     height={83}
                                     alt="Mizuno"

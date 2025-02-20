@@ -8,6 +8,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta name="description" content="Discover premium football jerseys from FPS - Future Performance Sport. Official kits for AS Monaco, FC Augsburg, SS Lazio, FC Hansa Rostock, and VFL Bochum, designed with cutting-edge sportswear technology."></meta>
         <title>FPS Future Performace Sport Co., LTD.</title>
         <link rel="icon" href="/image/Logos/FPS-PNG_Blue_09050de_Transparent.svg" type="image/svg+xml" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

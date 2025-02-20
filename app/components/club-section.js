@@ -38,10 +38,19 @@ const Clubsection = () => {
                                 <source src="/image/Video/As_Monaco.webm" type="video/webm" />
                             </video>
                         </div>
-                        <div className="mt-4 justify-items-center lg:justify-items-start">
-                            <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">AS MONACO</h2>
-                            <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">France</h6>
-                            <p className="text-gray-500">Ligue 1</p>
+                        <div className="mt-4 flex flex-row justify-items-center lg:justify-items-start">
+                            <Image
+                                src="/image/Club/AS_Monaco_Transparent.webp" 
+                                width={55}
+                                height={60}
+                                alt="Mizuno"
+                                style={{ objectFit: "contain" }} // ป้องกันการยืด
+                            />
+                            <div className='flex flex-col items-start justify-center pl-6'>
+                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">AS MONACO</h2>
+                                <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">France</h6>
+                                <p className="text-gray-500">Ligue 1</p>
+                            </div>
                         </div>
                     </div>
                     <div className="relative lg:mt-[-110px] col-span-6 justify-items-center lg:justify-items-start">
@@ -57,10 +66,19 @@ const Clubsection = () => {
                                 <source src="/image/Video/FC_Augsburg.webm" type="video/webm" />
                             </video>
                         </div>
-                        <div className="mt-4 justify-items-center lg:justify-items-start">
-                            <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC AUGSBURG</h2>
-                            <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
-                            <p className="text-gray-500">Bundesliga</p>
+                        <div className="mt-4 flex flex-row justify-items-center lg:justify-items-start">
+                            <Image
+                                src="/image/Club/Augsburg_Transparent.webp" 
+                                width={60}
+                                height={90}
+                                alt="Mizuno"
+                                style={{ objectFit: "contain" }} // ป้องกันการยืด
+                            />
+                            <div className='flex flex-col items-start justify-center pl-6'>
+                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC AUGSBURG</h2>
+                                <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
+                                <p className="text-gray-500">Bundesliga</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,10 +96,19 @@ const Clubsection = () => {
                                 <source src="/image/Video/Hansa.webm" type="video/webm" />
                             </video>
                         </div>
-                        <div className="mt-4 justify-items-center lg:justify-items-start">
-                            <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC HANSA ROSTOCK</h2>
-                            <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
-                            <p className="text-gray-500">3. Liga</p>
+                        <div className="mt-4 flex flex-row justify-items-center lg:justify-items-start">
+                            <Image
+                                src="/image/Club/Hansa_Rostock_Transparent.webp" 
+                                width={80}
+                                height={80}
+                                alt="Mizuno"
+                                style={{ objectFit: "contain" }} // ป้องกันการยืด
+                            />
+                            <div className='flex flex-col items-start justify-center pl-6'>
+                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC HANSA ROSTOCK</h2>
+                                <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
+                                <p className="text-gray-500">3. Liga</p>
+                            </div>
                         </div>
                     </div>
                     <div className="relative lg:mt-[-40px] col-span-7 justify-items-center lg:justify-items-start">
@@ -97,16 +124,25 @@ const Clubsection = () => {
                                 <source src="/image/Video/SS_Lazio.webm" type="video/webm" />
                             </video>
                         </div>
-                        <div className="mt-4 justify-items-center lg:justify-items-start">
-                            <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">SS LAZIO</h2>
-                            <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Italy</h6>
-                            <p className="text-gray-500">Serie A</p>
+                        <div className="mt-4 flex flex-row justify-items-center lg:justify-items-start">
+                            <Image
+                                src="/image/Club/SS_Lazio_Transprent.webp" 
+                                width={110}
+                                height={90}
+                                alt="Mizuno"
+                                style={{ objectFit: "contain" }} // ป้องกันการยืด
+                            />
+                            <div className='flex flex-col items-start justify-center pl-1'>
+                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">SS LAZIO</h2>
+                                <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Italy</h6>
+                                <p className="text-gray-500">Serie A</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="grid lg:grid-cols-12 grid-cols-1 gap-[1rem] xl:gap-[7rem] mt-12 mx-3">
+                <div className="grid lg:grid-cols-12 grid-cols-1 gap-[1rem] xl:gap-[7rem] mt-3 mx-3">
                     {/* FC AUGSBURG IMAGE (Move this up in small screens) */}
-                    <div className="relative lg:order-last order-none lg:mt-[-125px] col-span-7 lg:mx-6 justify-items-center lg:justify-items-start">
+                    <div className="relative lg:order-last order-none lg:mt-[-110px] col-span-7 lg:mx-6 justify-items-center lg:justify-items-start">
                         <div className="relative overflow-hidden max-w-[650px] w-full h-[370px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full  object-cover left-0"
@@ -119,10 +155,19 @@ const Clubsection = () => {
                                 <source src="/image/Video/VFL_Bochum.webm" type="video/webm" />
                             </video>
                         </div>
-                        <div className="mt-4 text-center lg:text-left">
-                            <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">VFL BOCHUM</h2>
-                            <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
-                            <p className="text-gray-500">Bundesliga</p>
+                        <div className="mt-4 flex flex-row text-center lg:text-left">
+                            <Image
+                                src="/image/Club/Bochum_Transparent.webp" 
+                                width={75}
+                                height={80}
+                                alt="Mizuno"
+                                style={{ objectFit: "contain" }} // ป้องกันการยืด
+                            />
+                            <div className='flex flex-col items-start justify-center pl-6'>
+                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">VFL BOCHUM</h2>
+                                <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
+                                <p className="text-gray-500">Bundesliga</p>
+                            </div>
                         </div>
                     </div>
 
@@ -130,7 +175,7 @@ const Clubsection = () => {
                     <div className="relative lg:order-first order-none lg:mt-[-25px] z-0 col-span-7 lg:col-span-5 justify-items-center lg:justify-items-start">
                         <div className="max-w-[500px] w-full h-[340px] flex items-center justify-center">
                             <Image
-                                src="/image/Logos/Mizuno-logo-wordmark.png" 
+                                src="/image/Logos/Mizuno-logo-wordmark.webp" 
                                 width={320}
                                 height={360}
                                 alt="Mizuno"

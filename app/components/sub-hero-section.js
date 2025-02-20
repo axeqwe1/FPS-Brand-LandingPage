@@ -7,11 +7,11 @@ import { useEffect, useState } from "react";
 
 
 const logoList = [
-    {logo:'/image/Club/AS_Monaco_Transparent.png', name:'AS MONACO',description:'Ligue 1'},
-    {logo:'/image/Club/Augsburg_Transparent.png', name:'FC AUGSBURG',description:'Bundesligo'},
-    {logo:'/image/Club/Bochum_Transparent.png', name:'FC HANSA ROSTOCK',description:'3. Liga'},
-    {logo:'/image/Club/Hansa_Rostock_Transparent.png', name:'SS LAZIO',description:'Serie A'},
-    {logo:'/image/Club/SS_Lazio_Transprent.png', name:'VFL BOCHUM',description:'Bundesligo'},
+    {logo:'/image/Club/AS_Monaco_Transparent.webp', name:'AS MONACO',description:'Ligue 1'},
+    {logo:'/image/Club/Augsburg_Transparent.webp', name:'FC AUGSBURG',description:'Bundesligo'},
+    {logo:'/image/Club/Bochum_Transparent.webp', name:'FC HANSA ROSTOCK',description:'3. Liga'},
+    {logo:'/image/Club/Hansa_Rostock_Transparent.webp', name:'SS LAZIO',description:'Serie A'},
+    {logo:'/image/Club/SS_Lazio_Transprent.webp', name:'VFL BOCHUM',description:'Bundesligo'},
 ]
 
 const SubHerosection = () => {
