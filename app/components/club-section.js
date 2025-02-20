@@ -32,6 +32,7 @@ const Clubsection = () => {
                                 loop 
                                 muted 
                                 playsInline
+                                alt="AS Monaco"
                             >
                                 <source src="/image/Video/AS_Monaco_for_FPS_Website.mp4" type="video/mp4" />
                             </video>
@@ -50,6 +51,7 @@ const Clubsection = () => {
                                 loop 
                                 muted 
                                 playsInline
+                                alt="FC Augsburg"
                             >
                                 <source src="/image/Video/FC_Augsburg_for_Website.mp4" type="video/mp4" />
                             </video>
@@ -88,6 +90,7 @@ const Clubsection = () => {
                                 loop 
                                 muted 
                                 playsInline
+                                alt="SS Lazio"
                             >
                                 <source src="/image/Video/SS_Lazio_for_FPS_Website.mp4" type="video/mp4" />
                             </video>
@@ -109,6 +112,7 @@ const Clubsection = () => {
                                 loop 
                                 muted 
                                 playsInline
+                                alt="VFL Bochum"
                             >
                                 <source src="/image/Video/VfL_Bochum_for_FPS_Website.mp4" type="video/mp4" />
                             </video>

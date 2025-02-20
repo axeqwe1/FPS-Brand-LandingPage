@@ -24,7 +24,6 @@ const HeroDetailsection = () => {
   const FuturaBoldClass = useFuturaFont('bold');
 // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaMediumClass = useFuturaFont('medium');
-  console.log(isInView)
     return (
         <div className='min-h-[600px] background-theme-1'>
             <motion.div 
@@ -38,7 +37,7 @@ const HeroDetailsection = () => {
                     <div className="col-span-1 md:pb-0 pb-3">
                         <div className="flex flex-col items-center md:items-start leading-[.9] tracking-[-.2em]">
                             <div className="content">
-                                <h1 className={`text-[54px] text-white uppercase `}>
+                                <h1 className={`text-[44px] sm:text-[54px] text-white uppercase text-center md:text-start`}>
                                     Pioneering <br />
                                     the future <br />
                                     of football <br />

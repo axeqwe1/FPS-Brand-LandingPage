@@ -77,7 +77,7 @@ const HeroDescriptionSection = () => {
                         src="/image/Logos/Textile_one.jpeg" 
                         width={210}
                         height={90}
-                        alt="Future"
+                        alt="Textile One Indonesia"
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
                     <Image 
@@ -85,7 +85,7 @@ const HeroDescriptionSection = () => {
                         src="/image/Logos/YPTLogo_Square.png" 
                         width={197}
                         height={90}
-                        alt="Future"
+                        alt="Yehpattana Tayeh"
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
                     <Image 
@@ -93,7 +93,7 @@ const HeroDescriptionSection = () => {
                         src="/image/Logos/Gennex_Square.png" 
                         width={190}
                         height={90}
-                        alt="Future"
+                        alt="Gennex"
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
                     <Image 
@@ -101,7 +101,7 @@ const HeroDescriptionSection = () => {
                         src="/image/Logos/FPS-PNG_Blue_09050de_Transparent.svg" 
                         width={200}
                         height={90}
-                        alt="Future"
+                        alt="Future Performance Sport Co., LTD"
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
                     <Image 
@@ -109,7 +109,7 @@ const HeroDescriptionSection = () => {
                         src="/image/Logos/NDS_Logo.jpeg" 
                         width={205}
                         height={90}
-                        alt="Future"
+                        alt="NDS"
                         style={{ objectFit: "contain" }} // ป้องกันการยืด
                     />
             </div>

@@ -46,8 +46,8 @@ const Herosection = () => {
                                 initial="hidden"
                                 animate="visible"
                             >
-                            <motion.h1 variants={itemVariants} className={`lg:text-[62px] text-[52px] leading-[1.1] tracking-tighter ${FuturaBoldClass}`}>EMPOWERING<br/> CLUBS WITH <br/>TOTAL<br/> MERCHANDISING SOLUTIONS</motion.h1>
-                            <motion.p variants={itemVariants} className={`py-3 text-[21px] tracking-tight leading-6 ${FuturaRegularClass}`}>We deliver bespoke football products. <br/> From design to retail, with future - focused <br/> innovation and technical expertise</motion.p>
+                            <motion.h1 variants={itemVariants} className={`lg:text-[62px] sm:text-[52px] text-[42px] leading-[1.1] tracking-tighter ${FuturaBoldClass}`}>EMPOWERING<br/> CLUBS WITH <br/>TOTAL<br/> MERCHANDISING SOLUTIONS</motion.h1>
+                            <motion.p variants={itemVariants} className={`py-3 sm:text-[21px] text-[18px] tracking-tight leading-6 ${FuturaRegularClass}`}>We deliver bespoke football products. <br/> From design to retail, with future - focused <br/> innovation and technical expertise</motion.p>
                             <br className='hidden lg:block' />
                                 <motion.div variants={itemVariants} className="logo">
                                     <Image 
@@ -63,45 +63,45 @@ const Herosection = () => {
                         </div>
                     </div>
                     <div className="flex flex-row-reverse lg:justify-start justify-end mt-3">
-                        <div className="flex flex-row-reverse flex-wrap content-start z-10 lg:px-0 px-9">
+                        <div className="flex sm:flex-row-reverse flex-row flex-wrap content-start z-10 lg:px-0 px-9 sm:p-0 p-[3px] items-center">
                             <Image
-                                className={`ml-4 mr-1 lg:w-[56px] lg:h-[58px] w-[46px] h-[48px]`} 
+                                className={`sm:ml-4 ml-2 mr-1 lg:w-[56px] lg:h-[58px] w-[46px] h-[48px]`} 
                                 src="/image/Club/Bochum_Transparent.png" 
                                 width={56}
                                 height={58}
-                                alt="Mizuno"
+                                alt="Bochum"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <Image 
-                                className={`ml-4 lg:w-[88px] lg:h-[59px] w-[78px] h-[49px]`} 
+                                className={`sm:ml-4 ml-2 lg:w-[88px] lg:h-[59px] w-[78px] h-[49px]`} 
                                 src="/image/Club/SS_Lazio_Transprent.png" 
                                 width={88}
                                 height={59}
-                                alt="Mizuno"
+                                alt="SS Lazio"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <Image 
-                                className={`ml-8 lg:w-[58px] lg:h-[58px] w-[48px] h-[48px]`}
+                                className={`sm:ml-8 ml-2 lg:w-[58px] lg:h-[58px] w-[48px] h-[48px]`}
                                 src="/image/Club/Hansa_Rostock_Transparent.png" 
                                 width={58}
                                 height={58}
-                                alt="Mizuno"
+                                alt="Hansa Rostock"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <Image 
-                                className={`ml-8 lg:w-[46px] lg:h-[58px] w-[36px] h-[48px]`}
+                                className={`sm:ml-8 ml-6 lg:w-[46px] lg:h-[58px] w-[36px] h-[48px]`}
                                 src="/image/Club/Augsburg_Transparent.png" 
                                 width={46}
                                 height={58}
-                                alt="Mizuno"
+                                alt="Augsburg"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <Image 
-                                className={`ml-4 mt-[-10px] lg:w-[43px] lg:h-[71px] w-[43px] h-[61px]`}
+                                className={`sm:ml-4 ml-4 mt-[-10px] lg:w-[43px] lg:h-[71px] w-[43px] h-[61px]`}
                                 src="/image/Club/AS_Monaco_Transparent.png" 
                                 width={43}
                                 height={71}
-                                alt="Mizuno"
+                                alt="AS Monaco"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                         </div>
