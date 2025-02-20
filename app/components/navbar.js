@@ -19,7 +19,7 @@ const NavBar = () => {
   // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaBoldClass = useFuturaFont('bold');
     return(
-        <div className="navbar bg-base-100 shadow-lg sticky top-0 z-50 p-0">
+        <div className="navbar shadow-lg sticky top-0 z-50 p-0 bg-white">
             <div className="container max-w-[1300px] mx-auto">
                 <div className="flex justify-between items-center w-full">
                     <a href="">

@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 
 const Clubsection = () => {
     return (
+        <div className="ourclub-section bg-white">
             <div className="max-w-[1300px] mx-auto my-12">
                 <motion.h1
                  className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
@@ -139,6 +140,7 @@ const Clubsection = () => {
                     </div>
                 </div>
             </div>
+        </div>
 
             // <div className="max-w-[1300px] mx-auto my-12">
             //     <div className="grid md:grid-cols-2 gap-8">
