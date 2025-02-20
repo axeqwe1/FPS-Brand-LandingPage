@@ -49,7 +49,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className=" mx-auto w-full h-full place-self-start lg:p-0 p-5">
-                            <div className="flex justify-center items-center h-full w-full">
+                            <div className="flex justify-center items-center h-full w-full p-[24px]">
                                 <div className="max-w-[600px] min-w-[340px] sm:min-w-[440px] max-h-[490px] h-full">
                                     <div className="h-full grid grid-flow-row-dense grid-cols-[repeat(3,1fr)_10px__10px_repeat(3,1fr)_10px__10px_repeat(2,1fr)] grid-rows-[repeat(1,1fr)_10px_10px_repeat(1,1fr)]">
                                         <div className="relative bg-red-500 col-span-3 row-span-3 overflow-hidden flex justify-center items-center border-solid border-2 border-white">

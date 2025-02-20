@@ -34,7 +34,6 @@ const Herosection = () => {
                 loop 
                 muted 
                 playsInline
-                preload="metadata"
             >
                 <source src="/image/Video/herosectionVideo.webm" type="video/webm" />
             </video>

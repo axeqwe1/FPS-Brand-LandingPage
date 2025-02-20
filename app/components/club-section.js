@@ -33,9 +33,8 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="AS Monaco"
-                                preload="metadata"
                             >
-                                <source src="/image/Video/AS_Monaco_for_FPS_Website.mp4" type="video/mp4" />
+                                <source src="/image/Video/As_Monaco.webm" type="video/webm" />
                             </video>
                         </div>
                         <div className="mt-4 justify-items-center lg:justify-items-start">
@@ -53,9 +52,8 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="FC Augsburg"
-                                preload="metadata"
                             >
-                                <source src="/image/Video/FC_Augsburg_for_Website.mp4" type="video/mp4" />
+                                <source src="/image/Video/FC_Augsburg.webm" type="video/webm" />
                             </video>
                         </div>
                         <div className="mt-4 justify-items-center lg:justify-items-start">
@@ -76,7 +74,7 @@ const Clubsection = () => {
                                 playsInline
                                 preload="metadata"
                             >
-                                <source src="/image/Video/Hansa_for_FPS_Website.mp4" type="video/mp4" />
+                                <source src="/image/Video/Hansa.webm" type="video/webm" />
                             </video>
                         </div>
                         <div className="mt-4 justify-items-center lg:justify-items-start">
@@ -94,9 +92,8 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="SS Lazio"
-                                preload="metadata"
                             >
-                                <source src="/image/Video/SS_Lazio_for_FPS_Website.mp4" type="video/mp4" />
+                                <source src="/image/Video/SS_Lazio.webm" type="video/webm" />
                             </video>
                         </div>
                         <div className="mt-4 justify-items-center lg:justify-items-start">
@@ -117,9 +114,8 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="VFL Bochum"
-                                preload="metadata"
                             >
-                                <source src="/image/Video/VfL_Bochum_for_FPS_Website.mp4" type="video/mp4" />
+                                <source src="/image/Video/VFL_Bochum.webm" type="video/webm" />
                             </video>
                         </div>
                         <div className="mt-4 text-center lg:text-left">
