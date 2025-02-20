@@ -47,7 +47,7 @@ const Clubsection = () => {
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <div className='flex flex-col items-start justify-center pl-6'>
-                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">AS MONACO</h2>
+                                <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">AS MONACO</h5>
                                 <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">France</h6>
                                 <p className="text-gray-500">Ligue 1</p>
                             </div>
@@ -75,7 +75,7 @@ const Clubsection = () => {
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <div className='flex flex-col items-start justify-center pl-6'>
-                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC AUGSBURG</h2>
+                                <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC AUGSBURG</h5>
                                 <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
                                 <p className="text-gray-500">Bundesliga</p>
                             </div>
@@ -105,7 +105,7 @@ const Clubsection = () => {
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <div className='flex flex-col items-start justify-center pl-6'>
-                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC HANSA ROSTOCK</h2>
+                                <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">FC HANSA ROSTOCK</h5>
                                 <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
                                 <p className="text-gray-500">3. Liga</p>
                             </div>
@@ -133,7 +133,7 @@ const Clubsection = () => {
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <div className='flex flex-col items-start justify-center pl-1'>
-                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">SS LAZIO</h2>
+                                <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">SS LAZIO</h5>
                                 <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Italy</h6>
                                 <p className="text-gray-500">Serie A</p>
                             </div>
@@ -164,7 +164,7 @@ const Clubsection = () => {
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
                             <div className='flex flex-col items-start justify-center pl-6'>
-                                <h2 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">VFL BOCHUM</h2>
+                                <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">VFL BOCHUM</h5>
                                 <h6 className="text-[20px] leading-[1] color-theme-1 tracking-tight">Germany</h6>
                                 <p className="text-gray-500">Bundesliga</p>
                             </div>
@@ -196,7 +196,7 @@ const Clubsection = () => {
             //                     <span className="text-gray-500">AS MONACO IMAGE</span>
             //                 </div>
             //                 <div className="mt-4">
-            //                     <h2 className="text-xl font-bold text-blue-800">AS MONACO</h2>
+            //                     <h5 className="text-xl font-bold text-blue-800">AS MONACO</h5>
             //                     <p className="text-gray-600">France</p>
             //                     <p className="text-gray-500">Ligue 1</p>
             //                 </div>
@@ -206,7 +206,7 @@ const Clubsection = () => {
             //                     <span className="text-gray-500">FC HANSA Rostock</span>
             //                 </div>
             //                 <div className="mt-4">
-            //                     <h2 className="text-xl font-bold text-blue-800">FC HANSA Rostock</h2>
+            //                     <h5 className="text-xl font-bold text-blue-800">FC HANSA Rostock</h5>
             //                     <p className="text-gray-600">Germany</p>
             //                     <p className="text-gray-500">3. Liga</p>
             //                 </div>
@@ -223,7 +223,7 @@ const Clubsection = () => {
             //                     <span className="text-gray-500">FC AUGSBURG IMAGE</span>
             //                 </div>
             //                 <div className="mt-4">
-            //                     <h2 className="text-xl font-bold text-blue-800">FC AUGSBURG</h2>
+            //                     <h5 className="text-xl font-bold text-blue-800">FC AUGSBURG</h5>
             //                     <p className="text-gray-600">Germany</p>
             //                     <p className="text-gray-500">Bundesliga</p>
             //                 </div>
@@ -233,7 +233,7 @@ const Clubsection = () => {
             //                     <span className="text-gray-500">SS LAZIO</span>
             //                 </div>
             //                 <div className="mt-4 mb-10">
-            //                     <h2 className="text-xl font-bold text-blue-800">SS LAZIO</h2>
+            //                     <h5 className="text-xl font-bold text-blue-800">SS LAZIO</h5>
             //                     <p className="text-gray-600">Italy</p>
             //                     <p className="text-gray-500">Serie A</p>
             //                 </div>
@@ -243,7 +243,7 @@ const Clubsection = () => {
             //                     <span className="text-gray-500">vFL Bochum</span>
             //                 </div>
             //                 <div className="mt-4">
-            //                     <h2 className="text-xl font-bold text-blue-800">vFL Bochum</h2>
+            //                     <h5 className="text-xl font-bold text-blue-800">vFL Bochum</h5>
             //                     <p className="text-gray-600">Germany</p>
             //                     <p className="text-gray-500">Bundesliga</p>
             //                 </div>

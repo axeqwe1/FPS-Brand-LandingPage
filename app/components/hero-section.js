@@ -39,14 +39,14 @@ const Herosection = () => {
             </video>
             <div className="max-w-[1300px] mx-auto">
                 <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center sm:items-start py-9">
-                    <div className="relative z-10 flex flex-col text-white max-w-[485px] xl:px-0 px-9">
+                    <div className="relative z-10 flex flex-col text-white max-w-[485px] mx-9">
                         <div className="flex justify-center items-center">
                             <motion.div
                                 variants={containerVariants}
                                 initial="hidden"
                                 animate="visible"
                             >
-                            <motion.h1 variants={itemVariants} className={`lg:text-[62px] sm:text-[48px] text-[38px] leading-[1.1] tracking-tighter ${FuturaBoldClass}`}>EMPOWERING<br/> CLUBS WITH <br/>TOTAL<br/> MERCHANDISING SOLUTIONS</motion.h1>
+                            <motion.h1 variants={itemVariants} className={`xl:text-[58px] lg:text-[52px] sm:text-[48px] text-[38px] leading-[1.1] tracking-tighter ${FuturaBoldClass}`}>EMPOWERING<br/> CLUBS WITH <br/>TOTAL<br/> MERCHANDISING SOLUTIONS</motion.h1>
                             <motion.p variants={itemVariants} className={`py-3 sm:text-[21px] text-[18px] tracking-tight leading-6 ${FuturaRegularClass}`}>We deliver bespoke football products. <br/> From design to retail, with future - focused <br/> innovation and technical expertise</motion.p>
                             <br className='hidden lg:block' />
                                 <motion.div variants={itemVariants} className="logo sm:py-0 py-6">
