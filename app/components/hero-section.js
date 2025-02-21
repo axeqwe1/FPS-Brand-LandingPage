@@ -63,7 +63,7 @@ const Herosection = () => {
                             </motion.div>
                         </div>
                     </div>
-                    <div className="flex flex-row-reverse lg:justify-start justify-end mt-3 items-center sm:items-start mx-9 xl:mx-6">
+                    <div className="flex flex-row-reverse lg:justify-start justify-end mt-3 items-center sm:items-start mx-4 md:mx-9 xl:mx-6">
                         <motion.div 
                             initial={{opacity:0,x:50}}
                             animate={{opacity:1,x:0}}
