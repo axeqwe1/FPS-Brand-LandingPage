@@ -38,11 +38,11 @@ const Footer = () => {
                                 <h1 className="lg:text-[82px] text-[72px] leading-[0.85] w-[100px] mt-[35px] tracking-[-.1em]">CONTACT US</h1>
                                 <div className="lg:mb-[55px] mb-[0px] lg:mt-[0px] mt-[55px] ">
                                     <div className="mb-[20px]">
-                                        <h4 className={`${FuturaMediumClass} text-[22px]`}>CLUB & BUSINESS ENQUIRIES</h4>
+                                        <h1 className={`${FuturaMediumClass} text-[22px]`}>CLUB & BUSINESS ENQUIRIES</h1>
                                         <p className={`${FuturaRegularClass} text-[20px]`}>fps@futureperformancesport.com</p>
                                     </div>
                                     <div className="">
-                                        <h4 className={`${FuturaMediumClass} text-[22px]`}>CAREERS</h4>
+                                        <h1 className={`${FuturaMediumClass} text-[22px]`}>CAREERS</h1>
                                         <p className={`${FuturaRegularClass} text-[20px]`}>hr@ymtholding.com</p>
                                     </div>
                                 </div>

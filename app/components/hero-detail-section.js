@@ -79,7 +79,7 @@ const HeroDetailsection = () => {
                                     alt="YMT Holding"
                                 />
                                 <div className="text-white px-6">
-                                    <h3 className={`text-[20px] ${FuturaBoldClass}`}>YMT HOLDING</h3>
+                                    <h1 className={`text-[20px] ${FuturaBoldClass}`}>YMT HOLDING</h1>
                                     <p className={`leading-[1.75] ${FuturaRegularClass}`}>Parent Company of Future Performance Sport</p>
                                     <p className={`${FuturaRegularClass}`}>www.ymtholding.com</p>
                                 </div>

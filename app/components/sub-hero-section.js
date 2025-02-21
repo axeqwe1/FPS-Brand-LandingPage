@@ -58,7 +58,7 @@ const SubHerosection = () => {
                         <div key={index} className="flex flex-row">
                             <img  src={logo.logo} alt="logo" className="h-16 w-auto" />
                             <div className="px-6 flex flex-col justify-center">
-                                <h5 className='text-white text-[20px] leading-[1]'>{logo.name}</h5>
+                                <h1 className='text-white text-[20px] leading-[1]'>{logo.name}</h1>
                                 <p className='text-white'>{logo.description}</p>
                             </div>
                         </div>
