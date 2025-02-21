@@ -22,7 +22,6 @@ export default function RootLayout({ children }) {
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;500;700;800;900&display=swap" as="style"/>
       </head>
       <body>
-        <Navbar />
         {children}
       </body>
     </html>

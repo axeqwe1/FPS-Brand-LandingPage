@@ -4,13 +4,12 @@ import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect,forwardRef } from "react";
 import { useInView } from "framer-motion";
 
 
 
-const Clubsection = () => {
-    const ref = useRef(null);
+const Clubsection = forwardRef((props, ref) => {
     const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
     const [hasBeenInView, setHasBeenInView] = useState(false);
 
@@ -33,7 +32,7 @@ const Clubsection = () => {
                 initial={{ opacity: 0, x: -50 }}
                 animate={hasBeenInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
-                className="max-w-[1300px] mx-auto py-12">
+                className="max-w-[1300px] mx-auto py-12 pt-[4rem]">
                 <h1
                      className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
                 >
@@ -205,72 +204,6 @@ const Clubsection = () => {
                 </div>
             </motion.div>
         </div>
-
-            // <div className="max-w-[1300px] mx-auto my-12">
-            //     <div className="grid md:grid-cols-2 gap-8">
-            //         <div className="grid grid-rows-[120px_repeat(2,0fr)_340px]">
-            //             <h1 className="text-8xl font-bold text-blue-900">OUR CLUBS</h1>
-            //             <div className="m-3">
-            //                 <div className="max-w-[630px] w-full h-[360px] border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">AS MONACO IMAGE</span>
-            //                 </div>
-            //                 <div className="mt-4">
-            //                     <h1 className="text-xl font-bold text-blue-800">AS MONACO</h1>
-            //                     <p className="text-gray-600">France</p>
-            //                     <p className="text-gray-500">Ligue 1</p>
-            //                 </div>
-            //             </div>
-            //             <div className='m-3'>
-            //                 <div className="max-w-[535px] w-full h-[450px] border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">FC HANSA Rostock</span>
-            //                 </div>
-            //                 <div className="mt-4">
-            //                     <h1 className="text-xl font-bold text-blue-800">FC HANSA Rostock</h1>
-            //                     <p className="text-gray-600">Germany</p>
-            //                     <p className="text-gray-500">3. Liga</p>
-            //                 </div>
-            //             </div>
-            //             <div className="m-3">
-            //                 <div className="sm:max-w-[500px] max-w-[500px] w-full h-full border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">LOGO MIZUNO</span>
-            //                 </div>
-            //             </div>
-            //         </div>
-            //         <div className="grid grid-rows-[repeat(3,0fr)]">
-            //             <div className="m-3 mb-6">
-            //                 <div className="max-w-[530px] w-full h-[410px] border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">FC AUGSBURG IMAGE</span>
-            //                 </div>
-            //                 <div className="mt-4">
-            //                     <h1 className="text-xl font-bold text-blue-800">FC AUGSBURG</h1>
-            //                     <p className="text-gray-600">Germany</p>
-            //                     <p className="text-gray-500">Bundesliga</p>
-            //                 </div>
-            //             </div>
-            //             <div className="m-3">
-            //                 <div className="max-w-[675px] w-full h-[360px] border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">SS LAZIO</span>
-            //                 </div>
-            //                 <div className="mt-4 mb-10">
-            //                     <h1 className="text-xl font-bold text-blue-800">SS LAZIO</h1>
-            //                     <p className="text-gray-600">Italy</p>
-            //                     <p className="text-gray-500">Serie A</p>
-            //                 </div>
-            //             </div>
-            //             <div className="m-3">
-            //                 <div className="max-w-[675px] w-[675px] h-[360px] border-2 border-gray-400 flex items-center justify-center">
-            //                     <span className="text-gray-500">vFL Bochum</span>
-            //                 </div>
-            //                 <div className="mt-4">
-            //                     <h1 className="text-xl font-bold text-blue-800">vFL Bochum</h1>
-            //                     <p className="text-gray-600">Germany</p>
-            //                     <p className="text-gray-500">Bundesliga</p>
-            //                 </div>
-            //             </div>
-            //         </div>
-            //     </div>
-            // </div>
     )
-}
-
-export default Clubsection;
+})
+   export default Clubsection;

@@ -4,10 +4,9 @@ import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { forwardRef, useState, useEffect } from "react";
 import { useInView } from "framer-motion";
-const Footer = () => {
-    const ref = useRef(null);
+const Footer = forwardRef((props,ref) => {
     const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" });
     const [hasBeenInView, setHasBeenInView] = useState(false);
     useEffect(() => {
@@ -104,6 +103,6 @@ const Footer = () => {
             </footer>
         </div>
     )
-}
+})
 
 export default Footer;

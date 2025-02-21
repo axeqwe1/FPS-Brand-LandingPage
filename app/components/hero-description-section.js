@@ -4,10 +4,9 @@ import Link from 'next/link';
 import Image from "next/image";
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import { motion, Variants } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { forwardRef, useState, useEffect } from "react";
 import { useInView } from "framer-motion";
-const HeroDescriptionSection = () => {
-  const ref = useRef(null);
+const HeroDescriptionSection = forwardRef((props,ref) => {
   const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
   const [hasBeenInView, setHasBeenInView] = useState(false);
 
@@ -118,6 +117,6 @@ const HeroDescriptionSection = () => {
         </div>
 
     )
-}
+})
 
 export default HeroDescriptionSection
