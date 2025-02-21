@@ -48,13 +48,13 @@ const NavBar = ({ scrollToSection }) => {
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     {item.path ? (
-                      <Link href={item.path} className={`px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                      <Link href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
                       </Link>
                     ) : (
                       <a
                         onClick={() => scrollToSection(item.id)}
-                        className={`px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}
+                        className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}
                       >
                         {item.name}
                       </a>
@@ -67,11 +67,11 @@ const NavBar = ({ scrollToSection }) => {
               {menuItems.map((item, index) => (
                 <li key={index}>
                     {item.path ? (
-                    <Link href={item.path} className={`px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                    <Link href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
                     </Link>
                     ) : (
-                    <a onClick={() => scrollToSection(item.id)} className={`px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                    <a onClick={() => scrollToSection(item.id)} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
                     </a>
                     )}
