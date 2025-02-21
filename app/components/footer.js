@@ -21,7 +21,7 @@ const Footer = forwardRef((props,ref) => {
     // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
     const FuturaMediumClass = useFuturaFont('medium');
     return (
-        <div className='background-theme-1 text-white'>
+        <div id="contact" className='background-theme-1 text-white'>
             <footer
                 className="max-w-7xl mx-auto "
             >

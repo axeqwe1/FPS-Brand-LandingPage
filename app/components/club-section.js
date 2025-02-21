@@ -26,7 +26,7 @@ const Clubsection = forwardRef((props, ref) => {
     const FuturaMediumClass = useFuturaFont('medium')
 
     return (
-        <div className="ourclub-section bg-white">
+        <div id="club" className="ourclub-section bg-white">
             <motion.div 
                 ref={ref}
                 initial={{ opacity: 0, x: -50 }}

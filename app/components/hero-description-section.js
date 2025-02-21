@@ -24,7 +24,7 @@ const HeroDescriptionSection = forwardRef((props,ref) => {
     // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
   const FuturaMediumClass = useFuturaFont('medium');
     return (
-        <div className="description-section bg-white">
+        <div id="about" className="description-section bg-white">
             <motion.div 
                 ref={ref}
                 initial={{ opacity: 0, y: 50 }}
