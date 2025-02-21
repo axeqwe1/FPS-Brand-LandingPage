@@ -20,8 +20,6 @@ export default function Home() {
     if (section === "club") ref = clubRef;
     if (section === "about") ref = aboutRef;
     if (section === "contact") ref = contactRef;
-
-    ref?.current?.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div>
