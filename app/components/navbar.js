@@ -33,7 +33,7 @@ const NavBar = () => {
                     </a>
                     <div className='flex flex-row h-full justify-center items-center'>
                         <div className="dropdown">
-                            <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                                 <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -59,7 +59,7 @@ const NavBar = () => {
                                 ))}
                             </ul>
                         </div>
-                        <ul className='md:flex flex-row hidden'>
+                        <ul className='lg:flex flex-row hidden'>
                         {menuItems.map((item,index) => (
                             <li key={index}>
                                 <Link href={item.path} className={`px-3 mr-5 ml-2 rounded-box p-5 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>

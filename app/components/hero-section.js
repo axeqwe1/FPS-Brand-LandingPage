@@ -39,8 +39,8 @@ const Herosection = () => {
                 <source src="/image/Video/herosectionVideo.webm" type="video/webm" />
             </video>
             <div className="max-w-[1300px] mx-auto">
-                <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center sm:items-start py-9">
-                    <div className="relative z-10 flex flex-col text-white max-w-[485px] mx-9">
+                <div className="flex flex-col xl:flex-row xl:justify-between justify-center items-center sm:items-start py-9">
+                    <div className="relative z-10 flex flex-col text-white max-w-[485px] mx-9 xl:mx-4 2xl:mx-0">
                         <div className="flex justify-center items-center">
                             <motion.div
                                 variants={containerVariants}
@@ -63,7 +63,7 @@ const Herosection = () => {
                             </motion.div>
                         </div>
                     </div>
-                    <div className="flex flex-row-reverse lg:justify-start justify-end mt-3 items-center sm:items-start">
+                    <div className="flex flex-row-reverse lg:justify-start justify-end mt-3 items-center sm:items-start mx-9 xl:mx-6">
                         <motion.div 
                             initial={{opacity:0,x:50}}
                             animate={{opacity:1,x:0}}
