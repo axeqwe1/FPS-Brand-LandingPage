@@ -53,6 +53,7 @@ const NavBar = ({ scrollToSection }) => {
                       </Link>
                     ) : (
                       <a
+                        href={`#${item.id}`}
                         onClick={() => scrollToSection(item.id)}
                         className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}
                       >
@@ -71,7 +72,7 @@ const NavBar = ({ scrollToSection }) => {
                         {item.name}
                     </Link>
                     ) : (
-                    <a onClick={() => scrollToSection(item.id)} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                    <a href={`#${item.id}`} onClick={() => scrollToSection(item.id)} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
                     </a>
                     )}
