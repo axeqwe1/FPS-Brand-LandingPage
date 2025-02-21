@@ -34,6 +34,7 @@ const Herosection = () => {
                 loop 
                 muted 
                 playsInline
+                preload='none'
             >
                 <source src="/image/Video/herosectionVideo.webm" type="video/webm" />
             </video>
@@ -63,7 +64,12 @@ const Herosection = () => {
                         </div>
                     </div>
                     <div className="flex flex-row-reverse lg:justify-start justify-end mt-3 items-center sm:items-start">
-                        <div className="flex sm:flex-row-reverse flex-row flex-wrap content-start z-10 lg:px-0 sm:p-0 p-[3px]  items-center">
+                        <motion.div 
+                            initial={{opacity:0,x:50}}
+                            animate={{opacity:1,x:0}}
+                            transition={{duration:0.3,ease: "easeOut"}}
+                            className="flex sm:flex-row-reverse flex-row flex-wrap content-start z-10 lg:px-0 sm:p-0 p-[3px]  items-center"
+                        >
                             <Image
                                 className={`sm:ml-4 ml-2 mr-1 lg:w-[56px] lg:h-[58px] w-[46px] h-[48px]`} 
                                 src="/image/Club/Bochum_Transparent.webp" 
@@ -104,7 +110,7 @@ const Herosection = () => {
                                 alt="AS Monaco"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
                             />
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>

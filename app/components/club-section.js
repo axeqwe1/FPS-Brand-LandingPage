@@ -3,27 +3,42 @@
 import Link from 'next/link';
 import { useFuturaFont } from "@/app/utils/FuturaFont.js";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
+import { useInView } from "framer-motion";
 
-  // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
-  const FuturaRegularClass = useFuturaFont('regular');
-  
-  // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
-  const FuturaBoldClass = useFuturaFont('bold');
-  const FuturaMediumClass = useFuturaFont('medium')
+
 
 const Clubsection = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { triggerOnce: true, margin: "-300px" }); 
+    const [hasBeenInView, setHasBeenInView] = useState(false);
+
+    useEffect(() => {
+    if (isInView && !hasBeenInView) {
+      setHasBeenInView(true); // ✅ เปลี่ยนเป็น true แค่ครั้งเดียว
+    }
+  }, [isInView, hasBeenInView]);
+    // เรียกใช้ฟอนต์ Regular สำหรับข้อความทั่วไป
+    const FuturaRegularClass = useFuturaFont('regular');
+    
+    // เรียกใช้ฟอนต์ Bold สำหรับชื่อเว็บไซต์
+    const FuturaBoldClass = useFuturaFont('bold');
+    const FuturaMediumClass = useFuturaFont('medium')
+
     return (
         <div className="ourclub-section bg-white">
-            <div className="max-w-[1300px] mx-auto py-12">
-                <motion.h1
-                 className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
-                     initial={{ opacity: 0, x: -50 }}
-                     animate={{ opacity: 1, x: 0 }}
-                     transition={{ duration: 0.3, ease: "easeOut" }}
+            <motion.div 
+                ref={ref}
+                initial={{ opacity: 0, x: -50 }}
+                animate={hasBeenInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+                className="max-w-[1300px] mx-auto py-12">
+                <h1
+                     className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
                 >
                     OUR CLUBS
-                </motion.h1>
+                </h1>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[1rem] lg:gap-[4rem] mt-6 mx-3">
                     <div className="relative col-span-6 justify-items-center lg:justify-items-start">
                         <div className="relative overflow-hidden max-w-[636px] w-full h-[360px] flex items-center justify-center">
@@ -34,6 +49,7 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="AS Monaco"
+                                preload='none'
                             >
                                 <source src="/image/Video/As_Monaco.webm" type="video/webm" />
                             </video>
@@ -62,6 +78,7 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="FC Augsburg"
+                                preload='none'
                             >
                                 <source src="/image/Video/FC_Augsburg.webm" type="video/webm" />
                             </video>
@@ -91,7 +108,7 @@ const Clubsection = () => {
                                 loop 
                                 muted 
                                 playsInline
-                                preload="metadata"
+                                preload='none'
                             >
                                 <source src="/image/Video/Hansa.webm" type="video/webm" />
                             </video>
@@ -131,6 +148,7 @@ const Clubsection = () => {
                                 height={90}
                                 alt="Mizuno"
                                 style={{ objectFit: "contain" }} // ป้องกันการยืด
+                                preload='none'
                             />
                             <div className='flex flex-col items-start justify-center pl-1'>
                                 <h5 className="text-[24px] leading-[1] font-bold color-theme-1 tracking-tight">SS LAZIO</h5>
@@ -151,6 +169,7 @@ const Clubsection = () => {
                                 muted 
                                 playsInline
                                 alt="VFL Bochum"
+                                preload='none'
                             >
                                 <source src="/image/Video/VFL_Bochum.webm" type="video/webm" />
                             </video>
@@ -184,7 +203,7 @@ const Clubsection = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
 
             // <div className="max-w-[1300px] mx-auto my-12">
