@@ -8,7 +8,7 @@ const menuItems = [
   { name: "CLUB PARTNERS", id: "club" },
   { name: "ABOUT US", id: "about" },
   { name: "CONTACT US", id: "contact" },
-  { name: "B2B", path: "/b2b" }, // ใช้ path แทน id สำหรับลิงก์ไปหน้าใหม่
+  { name: "B2B", path: "https://b2b.ymtinnovation.com/" }, // ใช้ path แทน id สำหรับลิงก์ไปหน้าใหม่
 ];
 
 const NavBar = ({ scrollToSection }) => {
@@ -48,9 +48,9 @@ const NavBar = ({ scrollToSection }) => {
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     {item.path ? (
-                      <Link href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                      <a target="_blank" href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
-                      </Link>
+                      </a>
                     ) : (
                       <a
                         href={`#${item.id}`}
@@ -68,9 +68,9 @@ const NavBar = ({ scrollToSection }) => {
               {menuItems.map((item, index) => (
                 <li key={index}>
                     {item.path ? (
-                    <Link href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
+                    <a target="_blank" href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}
-                    </Link>
+                    </a>
                     ) : (
                     <a href={`#${item.id}`} onClick={() => scrollToSection(item.id)} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
                         {item.name}

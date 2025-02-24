@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/app/components/navbar"
 import localFont from 'next/font/local'
 
 const myFont = localFont({ src: '../public/fonts/FuturaBold.woff2' })
