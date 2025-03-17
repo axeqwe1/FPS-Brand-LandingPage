@@ -71,7 +71,7 @@ const HeroDescriptionSection = forwardRef((props,ref) => {
                         fully integrated ecosystem, we set new benchmarks in performance, efficiency, and responsible manufacturing.
                     </p>
                 </div>
-                <div className="flex flex-row justify-center items-center flex-wrap">
+                <div className="grid gap-4 sm:grid-cols-5 sm:grid-rows-1 grid-cols-2 items-center justify-items-center">
                         <Image
                             className='mx-3 mr-[-12px]'  
                             src="/image/Logos/Textile_one.webp" 
@@ -98,8 +98,8 @@ const HeroDescriptionSection = forwardRef((props,ref) => {
                         />
                         <Image 
                             className='mx-3'  
-                            src="/image/Logos/FPS-PNG_Blue_09050de_Transparent.svg" 
-                            width={200}
+                            src="/image/Logos/FPS-PNG_Blue_09050de_Transparent.png" 
+                            width={170}
                             height={90}
                             alt="Future Performance Sport Co., LTD"
                             style={{ objectFit: "contain" }} // ป้องกันการยืด
