@@ -8,7 +8,7 @@ const menuItems = [
   { name: "CLUB PARTNERS", id: "club" },
   { name: "ABOUT US", id: "about" },
   { name: "CONTACT US", id: "contact" },
-  { name: "B2B", path: "https://b2b.ymtinnovation.com/login" }, // ใช้ path แทน id สำหรับลิงก์ไปหน้าใหม่
+  { name: "B2B", path: "https://b2b.ymtinnovation.com/" }, // ใช้ path แทน id สำหรับลิงก์ไปหน้าใหม่
 ];
 
 const NavBar = ({ scrollToSection }) => {
