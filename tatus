@@ -1,0 +1,209 @@
+[33mcommit ca3db59af64e69b9c61e84ab6c50e88a00e67f8c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfirst-branch[m[33m, [m[1;32mmain[m[33m)[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Mon Feb 24 09:51:57 2025 +0700
+
+    change link bb2b
+
+[33mcommit ec7008c772caf33c2290e1fa55bee2f44029ec59[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Mon Feb 24 09:24:58 2025 +0700
+
+    Add Link to B2B
+
+[33mcommit e029f95babc8cbdff657ba8a4db3cc7b00f9df28[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 11:27:07 2025 +0700
+
+    fix logo responsive
+
+[33mcommit 0212af8d14f43e0c7557846db70b2e53883c3ea0[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 11:24:17 2025 +0700
+
+    fix color dropdown menu
+
+[33mcommit 46675a6e0152d9334374a5c930b1c5cf667f6c7d[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 11:08:08 2025 +0700
+
+    anchor id for scroll
+
+[33mcommit a2ba7e2be8170fd7f99f82aab97ee4c53d0d4304[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 11:00:20 2025 +0700
+
+    21/02/2025
+
+[33mcommit 27bfc42181dce5281ff3164e2bd9283eb426d1c9[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 10:53:47 2025 +0700
+
+    fix Link are not crawable
+
+[33mcommit 76286dc93d9de1eed5ebff99058c0cbcd36696cc[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 10:46:49 2025 +0700
+
+    add pointer to nav menu
+
+[33mcommit 19cc74318eb0c8238ddefd569dd51f902830aaeb[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 10:44:41 2025 +0700
+
+    Add forwardRef for scroll page from nav menu
+
+[33mcommit 2990f9d57369dd00f736a94b95e171fae56d3733[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 09:54:05 2025 +0700
+
+    Fix Margin on hero section and Navbar responsive
+
+[33mcommit a878144550ae8b48d071b08e645163f241992b0d[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 09:03:23 2025 +0700
+
+    fix tag header
+
+[33mcommit 141e1b0e1b03e12895f9a62ab11883daad076baf[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Fri Feb 21 08:52:44 2025 +0700
+
+    add motion whole screen club
+
+[33mcommit c345c6268919cf1ebfb05c99d70926e09831be04[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 18:00:03 2025 +0700
+
+    fix padding on nav menu
+
+[33mcommit 22d8ae3cd7e02469ca33fd4a0385ef74b9a5901e[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:50:28 2025 +0700
+
+    change delay animation 2
+
+[33mcommit 96e6d847332144b166eadb57fb66709511ef3fb2[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:48:28 2025 +0700
+
+    change delay animation
+
+[33mcommit 07ae2e7d4f74a26aad5841d05a1cf8ddcc4e5b7b[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:45:42 2025 +0700
+
+    try to fix LCP
+
+[33mcommit f4c0cdaabffd46047c267d5d1594df33ded91870[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:22:42 2025 +0700
+
+    Fix Herosection Header
+
+[33mcommit 9506257f79763c836d5f3fd0f415b5bde73b0d55[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:13:35 2025 +0700
+
+    add preload
+
+[33mcommit 58b2e672e356c31450ff4043fd3597d4760971fa[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 17:08:21 2025 +0700
+
+    fix header
+
+[33mcommit 645298deab519f1e4464033d3610bfbadafb765b[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 16:53:15 2025 +0700
+
+    change png to webp
+
+[33mcommit f2306ff598346a7d3a3da8ccbbfa8c81afdcc168[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:54:57 2025 +0700
+
+    font
+
+[33mcommit f1fcd8c2c145c6f93a1bd4995b75e0971ab0940d[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:51:24 2025 +0700
+
+    Clean Cache
+
+[33mcommit 752e682a95bf035c9954394d2a65f9874710ccaa[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:46:32 2025 +0700
+
+    fix padding in herosection
+
+[33mcommit c38d2088e1668c3b4b1beb766c78176f609d2a92[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:21:12 2025 +0700
+
+    change title and logo on title
+
+[33mcommit e91f3780de46c8b72866503d77cda1cfacd5cd87[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:15:02 2025 +0700
+
+    Add Scroll Smooth
+
+[33mcommit 5b48431f3fcae5fd65dd4e1f8ce35b2fc5c8be28[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:11:51 2025 +0700
+
+    fix margin to padding in club section
+
+[33mcommit dfde266e297d70f78b3675eba3aa589e786b6aea[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 13:09:12 2025 +0700
+
+    fix background color
+
+[33mcommit 5f3d37ac1001ad61f3c0412ac3a27d1da38e7cd3[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 10:09:12 2025 +0700
+
+    change all video to webM and add Padding Footer
+
+[33mcommit 98d4e15f2bdf0b5fb06b51689e2a32e8fc9bb389[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 09:56:45 2025 +0700
+
+    Convert Hero Video from mp4  to webm
+
+[33mcommit c1950a52a2fd1bd4e47d228a6465b8d746ccaa16[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 09:14:35 2025 +0700
+
+    Footer Motion Fix
+
+[33mcommit 54144d52dd4e28a9e78bf754bd8a2e8a79c28446[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Thu Feb 20 09:02:06 2025 +0700
+
+    Fix Responsive
+
+[33mcommit 2a3b0814025cf90811bec26131c013c73b63e31a[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Wed Feb 19 17:53:28 2025 +0700
+
+    footer motion
+
+[33mcommit 848a87c0b0037f2662cd819251d81d484856963c[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Wed Feb 19 17:25:39 2025 +0700
+
+    club motion text
+
+[33mcommit 76933ee8180c7fd95c7fdc55c559a7995b01b068[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Wed Feb 19 17:19:54 2025 +0700
+
+    first commit
+
+[33mcommit 3fc71e1b48edc33c80f5e84d4c84e35949030a7c[m
+Author: Bunniphat.l <shuffer2543@gmail.com>
+Date:   Mon Feb 17 11:50:26 2025 +0700
+
+    Initial commit from Create Next App
