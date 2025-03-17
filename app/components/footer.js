@@ -70,7 +70,7 @@ const Footer = forwardRef((props,ref) => {
                                         </div>
                                         <div className="relative bg-blue-500 col-span-4 overflow-hidden flex justify-center items-center border-solid border-2 border-white">
                                             <Image
-                                                className='absolute top-0 left-0 min-h-[235px] object-cover'
+                                                className='absolute top-0 left-0 min-h-[169px] h-[169px] lg:h-[235px] object-cover'
                                                 src="/image/image/AS_Monaco/AS_Monaco_Kap_a_Club_Page.jpg"
                                                 width={420}
                                                 height={330}
@@ -79,7 +79,7 @@ const Footer = forwardRef((props,ref) => {
                                         </div>
                                         <div className="relative overflow-hidden bg-red-500 col-start-1 col-span-7 row-span-1 flex justify-center items-center border-solid border-2 border-white">
                                             <Image
-                                                className='absolute top-0 left-0 min-h-[235px] object-cover'
+                                                className='absolute top-0 left-0 min-h-[169px] h-[169px] object-cover'
                                                 src="/image/image/Hansa_Rostock/Hansa_1.jpg"
                                                 fill
                                                 alt="Mizuno"
@@ -87,7 +87,7 @@ const Footer = forwardRef((props,ref) => {
                                         </div>
                                         <div className="relative overflow-hidden bg-red-500  col-span-5 row-span-3 flex justify-center items-center border-solid border-2 border-white">
                                             <Image
-                                                className='absolute top-0 left-0 min-h-[275px] object-cover'
+                                                className='absolute top-0 left-0 min-h-[193px] h-[193px] lg:h-[275px] object-cover'
                                                 src="/image/image/Bochum/bochum.jpeg"
                                                 width={420}
                                                 height={330}
