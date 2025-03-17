@@ -40,7 +40,7 @@ const Clubsection = forwardRef((props, ref) => {
                 </h1>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[1rem] lg:gap-[4rem] mt-6 mx-3">
                     <div className="relative col-span-6 justify-items-center lg:justify-items-start">
-                        <div className="relative overflow-hidden min-w-[636px] max-w-[636px] w-full h-[360px] flex items-center justify-center">
+                        <div className="relative overflow-hidden min-w-[390px] max-w-[636px] w-[390px] lg:w-[636px] h-[360px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full object-cover left-0"
                                 autoPlay 
@@ -100,7 +100,7 @@ const Clubsection = forwardRef((props, ref) => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-12  gap-[1rem] lg:gap-[4rem] mt-6 mx-3 ">
                     <div className="relative z-0 col-span-7 lg:col-span-5 justify-items-center lg:justify-items-start">
-                        <div className="relative overflow-hidden min-w-[534px] max-w-[600px]  w-full h-[460px] flex items-center justify-center">
+                        <div className="relative overflow-hidden min-w-[390px] max-w-[600px]  w-[390px] h-[360px] lg:w-[534px] lg:h-[460px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full min-h-[560px] object-cover left-0"
                                 autoPlay 
