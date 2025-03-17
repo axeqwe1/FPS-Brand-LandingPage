@@ -17,7 +17,7 @@ const NavBar = ({ scrollToSection }) => {
 
   return (
     <div className="navbar shadow-lg sticky top-0 z-50 p-0 bg-white">
-      <div className="container max-w-[1300px] mx-auto">
+      <div className="container max-w-[1325px] mx-auto">
         <div className="flex justify-between items-center w-full">
           <a href="#">
             <Image
@@ -32,13 +32,13 @@ const NavBar = ({ scrollToSection }) => {
             <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="black"  // กำหนดสีเส้นเป็นสีดำ
-                    >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="black"  // กำหนดสีเส้นเป็นสีดำ
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
                 </svg>
               </div>
               <ul
@@ -67,15 +67,15 @@ const NavBar = ({ scrollToSection }) => {
             <ul className="lg:flex flex-row hidden">
               {menuItems.map((item, index) => (
                 <li key={index}>
-                    {item.path ? (
+                  {item.path ? (
                     <a target="_blank" href={item.path} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
-                        {item.name}
+                      {item.name}
                     </a>
-                    ) : (
+                  ) : (
                     <a href={`#${item.id}`} onClick={() => scrollToSection(item.id)} className={`cursor-pointer px-3 py-5 lg:mr-5 mr-3 ml-2 text-[18px] font-normal league-spartan-font-800 tracking-wide color-theme-1 underline-animation`}>
-                        {item.name}
+                      {item.name}
                     </a>
-                    )}
+                  )}
                 </li>
               ))}
             </ul>

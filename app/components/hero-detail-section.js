@@ -46,7 +46,7 @@ const HeroDetailsection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-span-1 ">
+                    <div className="col-span-1 justify-self-end">
                         <div className="flex flex-col w-full h-full items-center px-12">
                             <div className="content max-w-[440px]">
                                 <p className={`${FuturaRegularClass} text-white text-[18px] `}>

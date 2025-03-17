@@ -30,11 +30,11 @@ const HeroDescriptionSection = forwardRef((props,ref) => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={hasBeenInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // เช็คว่าอยู่ใน viewport หรือไม่
                 transition={{duration: 0.3, ease: "easeOut" }}
-                className="container min-h-[800px] max-w-[1250px] mx-auto pt-14 pb-6"
+                className="container min-h-[800px] max-w-[1250px] mx-auto pt-[24px]"
             >
                 <div className="flex lg:flex-row-reverse lg:justify-between xl:ml-[0px] lg:ml-[46px]  md:mr-[46px] m-[0] justify-center items-center flex-col-reverse">
                     <div className="mt-6">
-                        <h1 className='uppercase text-[38px] md:text-[52px] leading-[1] color-theme-1 text-center lg:text-right league-spartan-font-800 tracking-tighter px-3'>
+                        <h1 className='uppercase text-[38px] md:text-[42px] leading-[1] color-theme-1 text-center lg:text-right league-spartan-font-800 tracking-tighter px-3'>
                             YMT HOLDING.<br/>
                             A Vertically integrated textile group.
                         </h1>
