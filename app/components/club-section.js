@@ -32,7 +32,7 @@ const Clubsection = forwardRef((props, ref) => {
                 initial={{ opacity: 0, x: -50 }}
                 animate={hasBeenInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
-                className="max-w-[1300px] mx-auto py-12 pt-[4rem]">
+                className="max-w-[1300px] mx-auto pb-[68px] pt-[32px]">
                 <h1
                      className="lg:text-8xl text-7xl font-bold color-theme-1 tracking-tighter lg:text-start text-center"
                 >
@@ -40,7 +40,7 @@ const Clubsection = forwardRef((props, ref) => {
                 </h1>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-[1rem] lg:gap-[4rem] mt-6 mx-3">
                     <div className="relative col-span-6 justify-items-center lg:justify-items-start">
-                        <div className="relative overflow-hidden max-w-[636px] w-full h-[360px] flex items-center justify-center">
+                        <div className="relative overflow-hidden min-w-[390px] max-w-[636px] w-[390px] lg:w-[636px] h-[360px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full object-cover left-0"
                                 autoPlay 
@@ -68,7 +68,7 @@ const Clubsection = forwardRef((props, ref) => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative lg:mt-[-110px] col-span-6 justify-items-center lg:justify-items-start">
+                    <div className="relative lg:mt-[-110px] lg:ml-[30px] col-span-6 justify-items-center lg:justify-items-start">
                         <div className="relative overflow-hidden max-w-[580px] w-full h-[410px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full object-cover left-0"
@@ -100,7 +100,7 @@ const Clubsection = forwardRef((props, ref) => {
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-12  gap-[1rem] lg:gap-[4rem] mt-6 mx-3 ">
                     <div className="relative z-0 col-span-7 lg:col-span-5 justify-items-center lg:justify-items-start">
-                        <div className="relative overflow-hidden max-w-[600px]  w-full h-[460px] flex items-center justify-center">
+                        <div className="relative overflow-hidden min-w-[390px] max-w-[600px]  w-[390px] h-[360px] lg:w-[534px] lg:h-[460px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full min-h-[560px] object-cover left-0"
                                 autoPlay 
@@ -127,7 +127,7 @@ const Clubsection = forwardRef((props, ref) => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative lg:mt-[-40px] col-span-7 justify-items-center lg:justify-items-start">
+                    <div className="relative lg:mt-[-60px] lg:ml-[40px] col-span-7 justify-items-center lg:justify-items-start">
                         <div className="relative overflow-hidden max-w-[680px] w-full h-[360px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full  object-cover left-0"
@@ -159,8 +159,8 @@ const Clubsection = forwardRef((props, ref) => {
                 </div>
                 <div className="grid lg:grid-cols-12 grid-cols-1 gap-[1rem] xl:gap-[7rem] mt-3 mx-3">
                     {/* FC AUGSBURG IMAGE (Move this up in small screens) */}
-                    <div className="relative lg:order-last order-none lg:mt-[-110px] col-span-7 lg:mx-6 justify-items-center lg:justify-items-start">
-                        <div className="relative overflow-hidden max-w-[650px] w-full h-[370px] flex items-center justify-center">
+                    <div className="relative lg:order-last order-none lg:mt-[-110px] lg:ml-[60px] col-span-7 lg:mx-6 justify-items-center lg:justify-items-start">
+                        <div className="relative overflow-hidden lg:w-[660px] max-w-[660px] w-full h-[359px] flex items-center justify-center">
                             <video 
                                 className="absolute z-10 w-auto min-w-full h-full  object-cover left-0"
                                 autoPlay 
